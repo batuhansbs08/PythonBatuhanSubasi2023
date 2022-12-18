@@ -1,5 +1,13 @@
-import random
+ozurlu=int(input("Özürlü Devamsızlık Giriniz :  "))
+ozursuz=int(input("Özürsüz Devamsızlık Giriniz :  "))
+toplam=ozurlu+ozursuz
 
-print (random.randint(1,100))
-
-print('Tuttumu ?')
+if toplam>30:
+  print ("Kaldınız :(")
+else:
+  if ozursuz>10:
+    print ("Kaldınız :(")
+  else:
+    print("Geçtiniz :)")
+  
+           
